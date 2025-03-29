@@ -47,6 +47,10 @@ include your files:
 @property (strong, nonatomic) IBOutlet UIView *LaserViewUIView;
 
 //in viewDidLoad for UIViewController
+- (void)viewDidLoad {
+          [super viewDidLoad];
+
+
 
           dispatch_async(dispatch_get_main_queue(), ^{
            LaserMenuController *laserMenuController = [LaserMenuController sharedInstance];
@@ -63,4 +67,4 @@ include your files:
            // Notify the LaserMenuController that it was added to a parent
            [laserMenuController didMoveToParentViewController:self];
           });
-                 ```
+}
