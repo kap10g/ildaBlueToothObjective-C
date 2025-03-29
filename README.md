@@ -37,25 +37,30 @@ edit
 include your files:
 ```
 
+
+#import "LaserClient.h"
+#import "ltc2656.h"
+#import "ildaNode.h"
+#import "ildaFile.h"
           
 //property is UIView linked in storyboard with predefined transform
 @property (strong, nonatomic) IBOutlet UIView *LaserViewUIView;
 
+//in viewDidLoad for UIViewController
 
-
-                dispatch_async(dispatch_get_main_queue(), ^{
-                     LaserMenuController *laserMenuController = [LaserMenuController sharedInstance];
-                 
-                     // Add LaserMenuController as a child view controller
-                     [self addChildViewController:laserMenuController];
-                 
-                     // Set the frame of the LaserMenuController's view to fit inside LaserViewUIView
-                     laserMenuController.view.frame = self.LaserViewUIView.bounds;
-                 
-                     // Add the LaserMenuController's view to LaserViewUIView
-                     [self.LaserViewUIView addSubview:laserMenuController.view];
-                 
-                     // Notify the LaserMenuController that it was added to a parent
-                     [laserMenuController didMoveToParentViewController:self];
-                 });
+          dispatch_async(dispatch_get_main_queue(), ^{
+           LaserMenuController *laserMenuController = [LaserMenuController sharedInstance];
+          
+           // Add LaserMenuController as a child view controller
+           [self addChildViewController:laserMenuController];
+          
+           // Set the frame of the LaserMenuController's view to fit inside LaserViewUIView
+           laserMenuController.view.frame = self.LaserViewUIView.bounds;
+          
+           // Add the LaserMenuController's view to LaserViewUIView
+           [self.LaserViewUIView addSubview:laserMenuController.view];
+          
+           // Notify the LaserMenuController that it was added to a parent
+           [laserMenuController didMoveToParentViewController:self];
+          });
                  ```
