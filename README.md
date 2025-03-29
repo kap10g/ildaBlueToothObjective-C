@@ -27,5 +27,5 @@ edit
 
 #define ILDA_CHARACTERISTIC_WRITE_UUID @"0000FF02-0000-1000-8000-00805F9B34FB"```
 
-```ILDA_DEVICE_UUID``` should be the the bluetooth's device UUID (might need BLE scanners to get it)
-```ILDA_SERVICE_TWO``` is the service for ```ILDA_CHARACTERISTIC_READ_UUID``` and ```ILDA_CHARACTERISTIC_WRITE_UUID``` characteristics
+ILDA_DEVICE_UUID should be the the bluetooth's device UUID (might need BLE scanners to get it)
+ILDA_SERVICE_TWO is the service for ILDA_CHARACTERISTIC_READ_UUID and ILDA_CHARACTERISTIC_WRITE_UUID characteristics
