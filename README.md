@@ -14,3 +14,18 @@ https://github.com/zrrraa/X-Laser
 https://oshwhub.com/small-horn-projection-team/x-laser
 
 https://www.bilibili.com/video/BV12m411z7Wr/?vd_source=1d0c07486a3bd3b0adb8ac548bf6453e
+
+
+
+edit
+``#define ILDA_DEVICE_UUID            @"19EE35F9-C927-D4B7-0D30-BBAC6D1B19AD"
+#define DEVICE_INFORMATION_SERVICE_UUID @"180A"
+//#define ILDA_SERVICE_UUID        @"E8D21DFE-1831-8863-A3B6-2FFF68F83219"
+#define ILDA_SERVICE_UUID           @"FF00"
+#define ILDA_SERVICE_TWO            @"0000FF00-0000-1000-8000-00805F9B34FB"
+#define ILDA_CHARACTERISTIC_READ_UUID  @"0000FF01-0000-1000-8000-00805F9B34FB"
+
+#define ILDA_CHARACTERISTIC_WRITE_UUID @"0000FF02-0000-1000-8000-00805F9B34FB"``
+
+``ILDA_DEVICE_UUID`` should be the the bluetooth's device UUID (might need BLE scanners to get it)
+``ILDA_SERVICE_TWO`` is the service for ``ILDA_CHARACTERISTIC_READ_UUID`` and ``ILDA_CHARACTERISTIC_WRITE_UUID`` characteristics
