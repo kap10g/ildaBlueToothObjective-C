@@ -29,3 +29,4 @@ edit
 
 //ILDA_DEVICE_UUID should be the the bluetooth's device UUID (might need BLE scanners to get it)
 //ILDA_SERVICE_TWO is the SERVICE for ILDA_CHARACTERISTIC_READ_UUID and ILDA_CHARACTERISTIC_WRITE_UUID CHARACTERISTIC
+
