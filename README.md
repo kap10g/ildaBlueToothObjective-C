@@ -6,6 +6,7 @@ PLEASE CONTRIBUTE, the lead developer is basically learning about Bluetooth pack
 
 动画激光投影仪源
 rgb galvo 动画激光投影仪源 DQF9 蓝牙 git github 源代码固件
+alternative firmwares/boards:
 
 https://github.com/maximus64/sd_rgb500_cfw
 
