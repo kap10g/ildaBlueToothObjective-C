@@ -16,9 +16,7 @@ https://oshwhub.com/small-horn-projection-team/x-laser
 
 https://www.bilibili.com/video/BV12m411z7Wr/?vd_source=1d0c07486a3bd3b0adb8ac548bf6453e
 
-https://www.amazon.com/Waterproof-Animation-Projector-Christmas-Lighting/dp/B0DND2D46K?pd_rd_w=9r1Qj&content-id=amzn1.sym.c388ca75-4c14-4d9d-947d-5dcde63263f5&pf_rd_p=c388ca75-4c14-4d9d-947d-5dcde63263f5&pf_rd_r=ET6B5N7QT842YCDZT0RD&pd_rd_wg=5qQJN&pd_rd_r=316645d1-b59c-4b2b-b203-36c6baacb5fc&psc=1&ref_=pd_bap_d_grid_rp_csi_prsubs_0_pr_t
-
-
+https://www.amazon.com/Waterproof-Animation-Projector-Christmas-Lighting/dp/B0DND2D46K?pd_rd_w=9r1Qj
 edit
 ```
 #define ILDA_DEVICE_UUID            @"19EE35F9-C927-D4B7-0D30-BBAC6D1B19AD"
