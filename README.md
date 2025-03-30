@@ -17,6 +17,11 @@ https://oshwhub.com/small-horn-projection-team/x-laser
 https://www.bilibili.com/video/BV12m411z7Wr/?vd_source=1d0c07486a3bd3b0adb8ac548bf6453e
 
 https://www.amazon.com/Waterproof-Animation-Projector-Christmas-Lighting/dp/B0DND2D46K?pd_rd_w=9r1Qj
+
+https://github.com/RealCorebb/bbLaser
+
+
+
 edit
 ```
 #define ILDA_DEVICE_UUID            @"19EE35F9-C927-D4B7-0D30-BBAC6D1B19AD"
